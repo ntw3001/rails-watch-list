@@ -1,1 +1,17 @@
 // Specific CSS for your home-page
+
+.container{
+  color:gray;
+  background-color: $light-gray;
+}
+
+a {
+  text-decoration:none !important;
+}
+
+.movie-card {
+  width: 400px;
+  height: 560px;
+  background-color: $yellow;
+  color: $red;
+}

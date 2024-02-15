@@ -1,0 +1,14 @@
+<div class="container">
+  <div>
+    <h2>Watch these</h2>
+    <% @lists.each do |list| %>
+      <div class="card">
+        <h3> <%= link_to list.name, list_path(list) %> </h3>
+      </div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= link_to "New List", new_list_path %>
+  </div>
+</div>
