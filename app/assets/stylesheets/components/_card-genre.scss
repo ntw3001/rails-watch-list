@@ -1,0 +1,13 @@
+.card-genre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 4px dotted $yellow;
+  border-radius: 25%;
+  background-size: cover;
+  background-position: center;
+  margin: 8px;
+}
