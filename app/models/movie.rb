@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+  self.table_name = "plea_vi_movies"
   has_many :bookmarks
   # has_many :lists, through: :bookmarks
 
